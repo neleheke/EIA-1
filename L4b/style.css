@@ -10,15 +10,21 @@ body {
 #one {
     order: 1;
     background-color: red;
+    height: 100%;
+    width: 60%;
 }
 
 #two {
     order: 2;
     background-color: blue;
+    height: 60%;
+    width: 40%
 }
 
 #three {
     order: 3;
     background-color: green;
-    
+    height: 40%;
+    width: 40%;
+
 }
