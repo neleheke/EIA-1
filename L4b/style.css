@@ -1,4 +1,23 @@
 body {
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 0;
+}
 
+#one {
+    order: 1;
+    background-color: red;
+}
+
+#two {
+    order: 2;
+    background-color: blue;
+}
+
+#three {
+    order: 3;
+    background-color: green;
 }
